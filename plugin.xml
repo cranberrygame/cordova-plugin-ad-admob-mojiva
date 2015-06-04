@@ -16,8 +16,9 @@
 	</engines>
 	
     <platform name="ios">
+<!--
 		<source-file src="src/ios/libAdapterMojiva.a" framework="true" />
-		
+-->		
 		<!-- dependency -->
 <!--
  
@@ -30,22 +31,20 @@ duplicate symbol _OBJC_METACLASS_$_GADMAdaptorMojivaInterstitial in:
 cordova/platforms/ios/HelloCocoon/Plugins/com.cranberrygame.cordova.plugin.ad.admob.mojiva/libAdapterMojiva.a(GADMAdaptorMojivaInterstitial.o)
 cordova/platforms/ios/HelloCocoon/Plugins/com.cranberrygame.cordova.plugin.ad.admob.mojiva/libAdapterSDKMojiva.a(GADMAdaptorMojivaInterstitial.o)
 
-		<source-file src="src/ios/libAdapterSDKMojiva.a" framework="true" />
+
 -->
-		<framework src="MediaPlayer.framework" />
+		<source-file src="src/ios/libAdapterSDKMojiva.a" framework="true" />
+        
+        <framework src="MediaPlayer.framework" />
 		<framework src="CoreMotion.framework" />
 		<framework src="CoreLocation.framework" />
         
         
-        
-        
-        
-        
+<!--
         <framework src="AdSupport.framework" />
         <framework src="StoreKit.framework" />
         <framework src="SystemConfiguration.framework" />
         <framework src="AudioToolbox.framework" weak="true" />
-        <framework src="AdSupport.framework" weak="true" />
         <framework src="AVFoundation.framework"/>
         <framework src="CFNetwork.framework"/>
         <framework src="CoreGraphics.framework" />
@@ -54,26 +53,13 @@ cordova/platforms/ios/HelloCocoon/Plugins/com.cranberrygame.cordova.plugin.ad.ad
         <framework src="EventKit.framework" />
         <framework src="EventKitUI.framework"/>
         <framework src="Foundation.framework" />
-        <framework src="MediaPlayer.framework" />
         <framework src="MessageUI.framework" />
         <framework src="QuartzCore.framework" />
         <framework src="Social.framework" weak="true"/>
-        <framework src="StoreKit.framework"/>
-        <framework src="SystemConfiguration.framework" />
         <framework src="UIKit.framework" />
         <framework src="WebKit.framework" />
-        <framework src="AdSupport.framework"/>
-        <framework src="StoreKit.framework"/>
-        <framework src="CoreMotion.framework"/>
-        <framework src="AdSupport.framework" />
-        <framework src="CoreGraphics.framework" />
-        <framework src="Foundation.framework" />
-        <framework src="MediaPlayer.framework" />
         <framework src="Security.framework" />
-        <framework src="StoreKit.framework" />
-        <framework src="MessageUI.framework" />
-        <framework src="SystemConfiguration.framework" />
-        
+-->
     </platform>
 
 	<!-- dependency -->
