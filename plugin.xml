@@ -22,7 +22,7 @@
 		<source-file src="src/ios/libAdapterSDKMojiva.a" framework="true" />
 		<framework src="MediaPlayer.framework" />
 		<framework src="CoreMotion.framework" />
-		<framework src="CoreLocation" />
+		<framework src="CoreLocation.framework" />
     </platform>
 
 	<!-- dependency -->
