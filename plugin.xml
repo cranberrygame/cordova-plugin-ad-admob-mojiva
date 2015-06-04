@@ -19,7 +19,14 @@
 		<source-file src="src/ios/libAdapterMojiva.a" framework="true" />
 		
 		<!-- dependency -->
+<!--
+duplicate symbol:
+duplicate symbol _OBJC_METACLASS_$_GADMAdaptorMojivaInterstitial in:
+cordova/platforms/ios/HelloCocoon/Plugins/com.cranberrygame.cordova.plugin.ad.admob.mojiva/libAdapterMojiva.a(GADMAdaptorMojivaInterstitial.o)
+cordova/platforms/ios/HelloCocoon/Plugins/com.cranberrygame.cordova.plugin.ad.admob.mojiva/libAdapterSDKMojiva.a(GADMAdaptorMojivaInterstitial.o)
+
 		<source-file src="src/ios/libAdapterSDKMojiva.a" framework="true" />
+-->
 		<framework src="MediaPlayer.framework" />
 		<framework src="CoreMotion.framework" />
 		<framework src="CoreLocation.framework" />
