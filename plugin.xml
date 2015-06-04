@@ -20,6 +20,11 @@
 		
 		<!-- dependency -->
 <!--
+ 
+ "_OBJC_CLASS_$_MASTAdView", referenced from:
+ 
+===========
+ 
 duplicate symbol:
 duplicate symbol _OBJC_METACLASS_$_GADMAdaptorMojivaInterstitial in:
 cordova/platforms/ios/HelloCocoon/Plugins/com.cranberrygame.cordova.plugin.ad.admob.mojiva/libAdapterMojiva.a(GADMAdaptorMojivaInterstitial.o)
@@ -30,6 +35,45 @@ cordova/platforms/ios/HelloCocoon/Plugins/com.cranberrygame.cordova.plugin.ad.ad
 		<framework src="MediaPlayer.framework" />
 		<framework src="CoreMotion.framework" />
 		<framework src="CoreLocation.framework" />
+        
+        
+        
+        
+        
+        
+        <framework src="AdSupport.framework" />
+        <framework src="StoreKit.framework" />
+        <framework src="SystemConfiguration.framework" />
+        <framework src="AudioToolbox.framework" weak="true" />
+        <framework src="AdSupport.framework" weak="true" />
+        <framework src="AVFoundation.framework"/>
+        <framework src="CFNetwork.framework"/>
+        <framework src="CoreGraphics.framework" />
+        <framework src="CoreMedia.framework" />
+        <framework src="CoreTelephony.framework" />
+        <framework src="EventKit.framework" />
+        <framework src="EventKitUI.framework"/>
+        <framework src="Foundation.framework" />
+        <framework src="MediaPlayer.framework" />
+        <framework src="MessageUI.framework" />
+        <framework src="QuartzCore.framework" />
+        <framework src="Social.framework" weak="true"/>
+        <framework src="StoreKit.framework"/>
+        <framework src="SystemConfiguration.framework" />
+        <framework src="UIKit.framework" />
+        <framework src="WebKit.framework" />
+        <framework src="AdSupport.framework"/>
+        <framework src="StoreKit.framework"/>
+        <framework src="CoreMotion.framework"/>
+        <framework src="AdSupport.framework" />
+        <framework src="CoreGraphics.framework" />
+        <framework src="Foundation.framework" />
+        <framework src="MediaPlayer.framework" />
+        <framework src="Security.framework" />
+        <framework src="StoreKit.framework" />
+        <framework src="MessageUI.framework" />
+        <framework src="SystemConfiguration.framework" />
+        
     </platform>
 
 	<!-- dependency -->
